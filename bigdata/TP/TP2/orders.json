@@ -1,0 +1,1685 @@
+[
+  {
+    "orderId": "ORD-001",
+    "customer": {
+      "name": "Youcef Benaissa",
+      "email": "youcef.benaissa@mail.dz",
+      "city": "Alger",
+      "age": 23
+    },
+    "products": [
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 3
+      },
+      {
+        "productId": "P05",
+        "name": "Clavier",
+        "category": "Electronique",
+        "price": 8000,
+        "qty": 3
+      },
+      {
+        "productId": "P06",
+        "name": "Téléphone",
+        "category": "Electronique",
+        "price": 80000,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-04-15T00:00:00.000Z"
+    },
+    "totalAmount": 429000,
+    "paymentMethod": "carte"
+  },
+  {
+    "orderId": "ORD-002",
+    "customer": {
+      "name": "Amina Cherif",
+      "email": "amina.cherif@mail.dz",
+      "city": "Batna",
+      "age": 53
+    },
+    "products": [
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 1
+      },
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 2
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-04-21T00:00:00.000Z"
+    },
+    "totalAmount": 155000,
+    "paymentMethod": "carte"
+  },
+  {
+    "orderId": "ORD-003",
+    "customer": {
+      "name": "Karim Meziane",
+      "email": "karim.meziane@mail.dz",
+      "city": "Tizi Ouzou",
+      "age": 46
+    },
+    "products": [
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 1
+      },
+      {
+        "productId": "P08",
+        "name": "Bureau en bois",
+        "category": "Mobilier",
+        "price": 55000,
+        "qty": 1
+      },
+      {
+        "productId": "P10",
+        "name": "Casque Audio",
+        "category": "Electronique",
+        "price": 12000,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-12-17T00:00:00.000Z"
+    },
+    "totalAmount": 109000,
+    "paymentMethod": "cash"
+  },
+  {
+    "orderId": "ORD-004",
+    "customer": {
+      "name": "Fatima Boudiaf",
+      "email": "fatima.boudiaf@mail.dz",
+      "city": "Sétif",
+      "age": 28
+    },
+    "products": [
+      {
+        "productId": "P06",
+        "name": "Téléphone",
+        "category": "Electronique",
+        "price": 80000,
+        "qty": 3
+      },
+      {
+        "productId": "P03",
+        "name": "Chaise Bureau",
+        "category": "Mobilier",
+        "price": 35000,
+        "qty": 3
+      },
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 3
+      },
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 2
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-02-06T00:00:00.000Z"
+    },
+    "totalAmount": 489000,
+    "paymentMethod": "carte"
+  },
+  {
+    "orderId": "ORD-005",
+    "customer": {
+      "name": "Mohamed Hadj",
+      "email": "mohamed.hadj@mail.dz",
+      "city": "Blida",
+      "age": 51
+    },
+    "products": [
+      {
+        "productId": "P04",
+        "name": "Lampe LED",
+        "category": "Mobilier",
+        "price": 4000,
+        "qty": 1
+      },
+      {
+        "productId": "P14",
+        "name": "Clé USB 64Go",
+        "category": "Accessoires",
+        "price": 1500,
+        "qty": 2
+      },
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 2
+      }
+    ],
+    "status": "en cours",
+    "orderDate": {
+      "$date": "2024-07-03T00:00:00.000Z"
+    },
+    "totalAmount": 117000,
+    "paymentMethod": "cash"
+  },
+  {
+    "orderId": "ORD-006",
+    "customer": {
+      "name": "Nadia Belkacem",
+      "email": "nadia.belkacem@mail.dz",
+      "city": "Oran",
+      "age": 42
+    },
+    "products": [
+      {
+        "productId": "P10",
+        "name": "Casque Audio",
+        "category": "Electronique",
+        "price": 12000,
+        "qty": 1
+      },
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 3
+      },
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-03-09T00:00:00.000Z"
+    },
+    "totalAmount": 201000,
+    "paymentMethod": "cash"
+  },
+  {
+    "orderId": "ORD-007",
+    "customer": {
+      "name": "Rachid Tlemcani",
+      "email": "rachid.tlemcani@mail.dz",
+      "city": "Tlemcen",
+      "age": 32
+    },
+    "products": [
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 2
+      },
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 3
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-11-26T00:00:00.000Z"
+    },
+    "totalAmount": 183000,
+    "paymentMethod": "paypal"
+  },
+  {
+    "orderId": "ORD-008",
+    "customer": {
+      "name": "Soumia Oukaci",
+      "email": "soumia.oukaci@mail.dz",
+      "city": "Constantine",
+      "age": 21
+    },
+    "products": [
+      {
+        "productId": "P09",
+        "name": "Imprimante",
+        "category": "Electronique",
+        "price": 30000,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-10-08T00:00:00.000Z"
+    },
+    "totalAmount": 90000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-009",
+    "customer": {
+      "name": "Abdelkader Mansouri",
+      "email": "abdelkader.mansouri@mail.dz",
+      "city": "Oran",
+      "age": 28
+    },
+    "products": [
+      {
+        "productId": "P14",
+        "name": "Clé USB 64Go",
+        "category": "Accessoires",
+        "price": 1500,
+        "qty": 3
+      },
+      {
+        "productId": "P08",
+        "name": "Bureau en bois",
+        "category": "Mobilier",
+        "price": 55000,
+        "qty": 3
+      },
+      {
+        "productId": "P05",
+        "name": "Clavier",
+        "category": "Electronique",
+        "price": 8000,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-10-01T00:00:00.000Z"
+    },
+    "totalAmount": 193500,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-010",
+    "customer": {
+      "name": "Houria Djaballah",
+      "email": "houria.djaballah@mail.dz",
+      "city": "Blida",
+      "age": 32
+    },
+    "products": [
+      {
+        "productId": "P14",
+        "name": "Clé USB 64Go",
+        "category": "Accessoires",
+        "price": 1500,
+        "qty": 3
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-05-08T00:00:00.000Z"
+    },
+    "totalAmount": 4500,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-011",
+    "customer": {
+      "name": "Billel Khaled",
+      "email": "billel.khaled@mail.dz",
+      "city": "Constantine",
+      "age": 36
+    },
+    "products": [
+      {
+        "productId": "P14",
+        "name": "Clé USB 64Go",
+        "category": "Accessoires",
+        "price": 1500,
+        "qty": 1
+      }
+    ],
+    "status": "en cours",
+    "orderDate": {
+      "$date": "2024-11-26T00:00:00.000Z"
+    },
+    "totalAmount": 1500,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-012",
+    "customer": {
+      "name": "Meriem Saadi",
+      "email": "meriem.saadi@mail.dz",
+      "city": "Tizi Ouzou",
+      "age": 33
+    },
+    "products": [
+      {
+        "productId": "P03",
+        "name": "Chaise Bureau",
+        "category": "Mobilier",
+        "price": 35000,
+        "qty": 1
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-03-16T00:00:00.000Z"
+    },
+    "totalAmount": 35000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-013",
+    "customer": {
+      "name": "Nassim Benali",
+      "email": "nassim.benali@mail.dz",
+      "city": "Constantine",
+      "age": 29
+    },
+    "products": [
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 3
+      },
+      {
+        "productId": "P15",
+        "name": "Sac à dos",
+        "category": "Accessoires",
+        "price": 6000,
+        "qty": 1
+      },
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 1
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-01-21T00:00:00.000Z"
+    },
+    "totalAmount": 150000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-014",
+    "customer": {
+      "name": "Lynda Hamidi",
+      "email": "lynda.hamidi@mail.dz",
+      "city": "Annaba",
+      "age": 52
+    },
+    "products": [
+      {
+        "productId": "P01",
+        "name": "Laptop",
+        "category": "Electronique",
+        "price": 120000,
+        "qty": 3
+      },
+      {
+        "productId": "P03",
+        "name": "Chaise Bureau",
+        "category": "Mobilier",
+        "price": 35000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-02-03T00:00:00.000Z"
+    },
+    "totalAmount": 430000,
+    "paymentMethod": "carte"
+  },
+  {
+    "orderId": "ORD-015",
+    "customer": {
+      "name": "Sofiane Ziani",
+      "email": "sofiane.ziani@mail.dz",
+      "city": "Constantine",
+      "age": 44
+    },
+    "products": [
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 3
+      },
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 1
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-11-21T00:00:00.000Z"
+    },
+    "totalAmount": 82000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-016",
+    "customer": {
+      "name": "Rania Bouazza",
+      "email": "rania.bouazza@mail.dz",
+      "city": "Batna",
+      "age": 36
+    },
+    "products": [
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 3
+      },
+      {
+        "productId": "P08",
+        "name": "Bureau en bois",
+        "category": "Mobilier",
+        "price": 55000,
+        "qty": 1
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-05-27T00:00:00.000Z"
+    },
+    "totalAmount": 220000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-017",
+    "customer": {
+      "name": "Hamid Bouzidi",
+      "email": "hamid.bouzidi@mail.dz",
+      "city": "Oran",
+      "age": 27
+    },
+    "products": [
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 2
+      },
+      {
+        "productId": "P04",
+        "name": "Lampe LED",
+        "category": "Mobilier",
+        "price": 4000,
+        "qty": 1
+      },
+      {
+        "productId": "P14",
+        "name": "Clé USB 64Go",
+        "category": "Accessoires",
+        "price": 1500,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-07-11T00:00:00.000Z"
+    },
+    "totalAmount": 44500,
+    "paymentMethod": "paypal"
+  },
+  {
+    "orderId": "ORD-018",
+    "customer": {
+      "name": "Asma Khelifi",
+      "email": "asma.khelifi@mail.dz",
+      "city": "Tizi Ouzou",
+      "age": 51
+    },
+    "products": [
+      {
+        "productId": "P01",
+        "name": "Laptop",
+        "category": "Electronique",
+        "price": 120000,
+        "qty": 1
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-12-18T00:00:00.000Z"
+    },
+    "totalAmount": 120000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-019",
+    "customer": {
+      "name": "Walid Derouiche",
+      "email": "walid.derouiche@mail.dz",
+      "city": "Oran",
+      "age": 34
+    },
+    "products": [
+      {
+        "productId": "P09",
+        "name": "Imprimante",
+        "category": "Electronique",
+        "price": 30000,
+        "qty": 1
+      },
+      {
+        "productId": "P01",
+        "name": "Laptop",
+        "category": "Electronique",
+        "price": 120000,
+        "qty": 1
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-04-23T00:00:00.000Z"
+    },
+    "totalAmount": 150000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-020",
+    "customer": {
+      "name": "Sabrina Chaib",
+      "email": "sabrina.chaib@mail.dz",
+      "city": "Béjaïa",
+      "age": 22
+    },
+    "products": [
+      {
+        "productId": "P05",
+        "name": "Clavier",
+        "category": "Electronique",
+        "price": 8000,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-08-16T00:00:00.000Z"
+    },
+    "totalAmount": 24000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-021",
+    "customer": {
+      "name": "Tarek Boukhari",
+      "email": "tarek.boukhari@mail.dz",
+      "city": "Oran",
+      "age": 53
+    },
+    "products": [
+      {
+        "productId": "P10",
+        "name": "Casque Audio",
+        "category": "Electronique",
+        "price": 12000,
+        "qty": 3
+      },
+      {
+        "productId": "P03",
+        "name": "Chaise Bureau",
+        "category": "Mobilier",
+        "price": 35000,
+        "qty": 1
+      },
+      {
+        "productId": "P02",
+        "name": "Souris",
+        "category": "Electronique",
+        "price": 2500,
+        "qty": 2
+      },
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-04-17T00:00:00.000Z"
+    },
+    "totalAmount": 186000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-022",
+    "customer": {
+      "name": "Imene Ferhat",
+      "email": "imene.ferhat@mail.dz",
+      "city": "Constantine",
+      "age": 22
+    },
+    "products": [
+      {
+        "productId": "P15",
+        "name": "Sac à dos",
+        "category": "Accessoires",
+        "price": 6000,
+        "qty": 2
+      },
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 2
+      },
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 3
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-04-14T00:00:00.000Z"
+    },
+    "totalAmount": 156000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-023",
+    "customer": {
+      "name": "Djamel Laoufi",
+      "email": "djamel.laoufi@mail.dz",
+      "city": "Béjaïa",
+      "age": 41
+    },
+    "products": [
+      {
+        "productId": "P10",
+        "name": "Casque Audio",
+        "category": "Electronique",
+        "price": 12000,
+        "qty": 3
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-06-06T00:00:00.000Z"
+    },
+    "totalAmount": 36000,
+    "paymentMethod": "paypal"
+  },
+  {
+    "orderId": "ORD-024",
+    "customer": {
+      "name": "Karima Messaoud",
+      "email": "karima.messaoud@mail.dz",
+      "city": "Annaba",
+      "age": 42
+    },
+    "products": [
+      {
+        "productId": "P03",
+        "name": "Chaise Bureau",
+        "category": "Mobilier",
+        "price": 35000,
+        "qty": 3
+      },
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 2
+      },
+      {
+        "productId": "P14",
+        "name": "Clé USB 64Go",
+        "category": "Accessoires",
+        "price": 1500,
+        "qty": 3
+      },
+      {
+        "productId": "P04",
+        "name": "Lampe LED",
+        "category": "Mobilier",
+        "price": 4000,
+        "qty": 1
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-09-19T00:00:00.000Z"
+    },
+    "totalAmount": 131500,
+    "paymentMethod": "carte"
+  },
+  {
+    "orderId": "ORD-025",
+    "customer": {
+      "name": "Anis Benmansour",
+      "email": "anis.benmansour@mail.dz",
+      "city": "Constantine",
+      "age": 48
+    },
+    "products": [
+      {
+        "productId": "P01",
+        "name": "Laptop",
+        "category": "Electronique",
+        "price": 120000,
+        "qty": 2
+      },
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 3
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-05-14T00:00:00.000Z"
+    },
+    "totalAmount": 375000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-026",
+    "customer": {
+      "name": "Samira Berkane",
+      "email": "samira.berkane@mail.dz",
+      "city": "Oran",
+      "age": 39
+    },
+    "products": [
+      {
+        "productId": "P03",
+        "name": "Chaise Bureau",
+        "category": "Mobilier",
+        "price": 35000,
+        "qty": 3
+      },
+      {
+        "productId": "P15",
+        "name": "Sac à dos",
+        "category": "Accessoires",
+        "price": 6000,
+        "qty": 2
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-09-06T00:00:00.000Z"
+    },
+    "totalAmount": 117000,
+    "paymentMethod": "cash"
+  },
+  {
+    "orderId": "ORD-027",
+    "customer": {
+      "name": "Lotfi Haddar",
+      "email": "lotfi.haddar@mail.dz",
+      "city": "Oran",
+      "age": 27
+    },
+    "products": [
+      {
+        "productId": "P02",
+        "name": "Souris",
+        "category": "Electronique",
+        "price": 2500,
+        "qty": 1
+      },
+      {
+        "productId": "P10",
+        "name": "Casque Audio",
+        "category": "Electronique",
+        "price": 12000,
+        "qty": 1
+      },
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-05-04T00:00:00.000Z"
+    },
+    "totalAmount": 124500,
+    "paymentMethod": "cash"
+  },
+  {
+    "orderId": "ORD-028",
+    "customer": {
+      "name": "Naima Belhocine",
+      "email": "naima.belhocine@mail.dz",
+      "city": "Blida",
+      "age": 36
+    },
+    "products": [
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 1
+      },
+      {
+        "productId": "P01",
+        "name": "Laptop",
+        "category": "Electronique",
+        "price": 120000,
+        "qty": 3
+      },
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 3
+      },
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-06-28T00:00:00.000Z"
+    },
+    "totalAmount": 533000,
+    "paymentMethod": "paypal"
+  },
+  {
+    "orderId": "ORD-029",
+    "customer": {
+      "name": "Khaled Zerrouki",
+      "email": "khaled.zerrouki@mail.dz",
+      "city": "Béjaïa",
+      "age": 53
+    },
+    "products": [
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 1
+      }
+    ],
+    "status": "en attente",
+    "orderDate": {
+      "$date": "2024-06-07T00:00:00.000Z"
+    },
+    "totalAmount": 55000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-030",
+    "customer": {
+      "name": "Leila Saidani",
+      "email": "leila.saidani@mail.dz",
+      "city": "Béjaïa",
+      "age": 44
+    },
+    "products": [
+      {
+        "productId": "P05",
+        "name": "Clavier",
+        "category": "Electronique",
+        "price": 8000,
+        "qty": 2
+      },
+      {
+        "productId": "P15",
+        "name": "Sac à dos",
+        "category": "Accessoires",
+        "price": 6000,
+        "qty": 1
+      }
+    ],
+    "status": "en cours",
+    "orderDate": {
+      "$date": "2024-06-20T00:00:00.000Z"
+    },
+    "totalAmount": 22000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-031",
+    "customer": {
+      "name": "Fares Benchikh",
+      "email": "fares.benchikh@mail.dz",
+      "city": "Tlemcen",
+      "age": 49
+    },
+    "products": [
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 1
+      },
+      {
+        "productId": "P08",
+        "name": "Bureau en bois",
+        "category": "Mobilier",
+        "price": 55000,
+        "qty": 2
+      },
+      {
+        "productId": "P03",
+        "name": "Chaise Bureau",
+        "category": "Mobilier",
+        "price": 35000,
+        "qty": 2
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-10-23T00:00:00.000Z"
+    },
+    "totalAmount": 189000,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-032",
+    "customer": {
+      "name": "Wafa Boumediene",
+      "email": "wafa.boumediene@mail.dz",
+      "city": "Blida",
+      "age": 46
+    },
+    "products": [
+      {
+        "productId": "P09",
+        "name": "Imprimante",
+        "category": "Electronique",
+        "price": 30000,
+        "qty": 1
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-10-24T00:00:00.000Z"
+    },
+    "totalAmount": 30000,
+    "paymentMethod": "paypal"
+  },
+  {
+    "orderId": "ORD-033",
+    "customer": {
+      "name": "Yacine Ghozali",
+      "email": "yacine.ghozali@mail.dz",
+      "city": "Batna",
+      "age": 26
+    },
+    "products": [
+      {
+        "productId": "P09",
+        "name": "Imprimante",
+        "category": "Electronique",
+        "price": 30000,
+        "qty": 3
+      },
+      {
+        "productId": "P04",
+        "name": "Lampe LED",
+        "category": "Mobilier",
+        "price": 4000,
+        "qty": 1
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-01-02T00:00:00.000Z"
+    },
+    "totalAmount": 94000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-034",
+    "customer": {
+      "name": "Hadjer Belabbas",
+      "email": "hadjer.belabbas@mail.dz",
+      "city": "Tizi Ouzou",
+      "age": 33
+    },
+    "products": [
+      {
+        "productId": "P05",
+        "name": "Clavier",
+        "category": "Electronique",
+        "price": 8000,
+        "qty": 2
+      },
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 3
+      },
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 1
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-12-31T00:00:00.000Z"
+    },
+    "totalAmount": 206000,
+    "paymentMethod": "paypal"
+  },
+  {
+    "orderId": "ORD-035",
+    "customer": {
+      "name": "Mourad Kaddouri",
+      "email": "mourad.kaddouri@mail.dz",
+      "city": "Annaba",
+      "age": 58
+    },
+    "products": [
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 1
+      },
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-05-10T00:00:00.000Z"
+    },
+    "totalAmount": 63000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-036",
+    "customer": {
+      "name": "Zineb Ouali",
+      "email": "zineb.ouali@mail.dz",
+      "city": "Blida",
+      "age": 37
+    },
+    "products": [
+      {
+        "productId": "P08",
+        "name": "Bureau en bois",
+        "category": "Mobilier",
+        "price": 55000,
+        "qty": 1
+      },
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 1
+      },
+      {
+        "productId": "P04",
+        "name": "Lampe LED",
+        "category": "Mobilier",
+        "price": 4000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-02-13T00:00:00.000Z"
+    },
+    "totalAmount": 72000,
+    "paymentMethod": "carte"
+  },
+  {
+    "orderId": "ORD-037",
+    "customer": {
+      "name": "Adel Messaoudi",
+      "email": "adel.messaoudi@mail.dz",
+      "city": "Constantine",
+      "age": 43
+    },
+    "products": [
+      {
+        "productId": "P05",
+        "name": "Clavier",
+        "category": "Electronique",
+        "price": 8000,
+        "qty": 3
+      },
+      {
+        "productId": "P02",
+        "name": "Souris",
+        "category": "Electronique",
+        "price": 2500,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-05-16T00:00:00.000Z"
+    },
+    "totalAmount": 31500,
+    "paymentMethod": "carte"
+  },
+  {
+    "orderId": "ORD-038",
+    "customer": {
+      "name": "Rima Belouizdad",
+      "email": "rima.belouizdad@mail.dz",
+      "city": "Béjaïa",
+      "age": 38
+    },
+    "products": [
+      {
+        "productId": "P15",
+        "name": "Sac à dos",
+        "category": "Accessoires",
+        "price": 6000,
+        "qty": 1
+      },
+      {
+        "productId": "P06",
+        "name": "Téléphone",
+        "category": "Electronique",
+        "price": 80000,
+        "qty": 1
+      },
+      {
+        "productId": "P09",
+        "name": "Imprimante",
+        "category": "Electronique",
+        "price": 30000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-02-17T00:00:00.000Z"
+    },
+    "totalAmount": 146000,
+    "paymentMethod": "carte"
+  },
+  {
+    "orderId": "ORD-039",
+    "customer": {
+      "name": "Mehdi Boucherit",
+      "email": "mehdi.boucherit@mail.dz",
+      "city": "Constantine",
+      "age": 23
+    },
+    "products": [
+      {
+        "productId": "P01",
+        "name": "Laptop",
+        "category": "Electronique",
+        "price": 120000,
+        "qty": 2
+      },
+      {
+        "productId": "P13",
+        "name": "Tablette",
+        "category": "Electronique",
+        "price": 55000,
+        "qty": 2
+      },
+      {
+        "productId": "P03",
+        "name": "Chaise Bureau",
+        "category": "Mobilier",
+        "price": 35000,
+        "qty": 3
+      },
+      {
+        "productId": "P15",
+        "name": "Sac à dos",
+        "category": "Accessoires",
+        "price": 6000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-12-14T00:00:00.000Z"
+    },
+    "totalAmount": 467000,
+    "paymentMethod": "cash"
+  },
+  {
+    "orderId": "ORD-040",
+    "customer": {
+      "name": "Nawel Hadjadj",
+      "email": "nawel.hadjadj@mail.dz",
+      "city": "Tlemcen",
+      "age": 27
+    },
+    "products": [
+      {
+        "productId": "P06",
+        "name": "Téléphone",
+        "category": "Electronique",
+        "price": 80000,
+        "qty": 3
+      },
+      {
+        "productId": "P08",
+        "name": "Bureau en bois",
+        "category": "Mobilier",
+        "price": 55000,
+        "qty": 1
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-01-26T00:00:00.000Z"
+    },
+    "totalAmount": 295000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-041",
+    "customer": {
+      "name": "Omar Slimani",
+      "email": "omar.slimani@mail.dz",
+      "city": "Sétif",
+      "age": 52
+    },
+    "products": [
+      {
+        "productId": "P03",
+        "name": "Chaise Bureau",
+        "category": "Mobilier",
+        "price": 35000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-12-14T00:00:00.000Z"
+    },
+    "totalAmount": 70000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-042",
+    "customer": {
+      "name": "Sara Belaid",
+      "email": "sara.belaid@mail.dz",
+      "city": "Annaba",
+      "age": 45
+    },
+    "products": [
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 1
+      },
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 2
+      },
+      {
+        "productId": "P10",
+        "name": "Casque Audio",
+        "category": "Electronique",
+        "price": 12000,
+        "qty": 3
+      },
+      {
+        "productId": "P05",
+        "name": "Clavier",
+        "category": "Electronique",
+        "price": 8000,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-04-05T00:00:00.000Z"
+    },
+    "totalAmount": 168000,
+    "paymentMethod": "cash"
+  },
+  {
+    "orderId": "ORD-043",
+    "customer": {
+      "name": "Fethi Amrani",
+      "email": "fethi.amrani@mail.dz",
+      "city": "Batna",
+      "age": 52
+    },
+    "products": [
+      {
+        "productId": "P10",
+        "name": "Casque Audio",
+        "category": "Electronique",
+        "price": 12000,
+        "qty": 1
+      },
+      {
+        "productId": "P05",
+        "name": "Clavier",
+        "category": "Electronique",
+        "price": 8000,
+        "qty": 1
+      },
+      {
+        "productId": "P08",
+        "name": "Bureau en bois",
+        "category": "Mobilier",
+        "price": 55000,
+        "qty": 1
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-08-03T00:00:00.000Z"
+    },
+    "totalAmount": 75000,
+    "paymentMethod": "carte"
+  },
+  {
+    "orderId": "ORD-044",
+    "customer": {
+      "name": "Djamila Boudjelal",
+      "email": "djamila.boudjelal@mail.dz",
+      "city": "Batna",
+      "age": 58
+    },
+    "products": [
+      {
+        "productId": "P09",
+        "name": "Imprimante",
+        "category": "Electronique",
+        "price": 30000,
+        "qty": 1
+      },
+      {
+        "productId": "P02",
+        "name": "Souris",
+        "category": "Electronique",
+        "price": 2500,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-04-07T00:00:00.000Z"
+    },
+    "totalAmount": 35000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-045",
+    "customer": {
+      "name": "Hichem Laib",
+      "email": "hichem.laib@mail.dz",
+      "city": "Blida",
+      "age": 34
+    },
+    "products": [
+      {
+        "productId": "P02",
+        "name": "Souris",
+        "category": "Electronique",
+        "price": 2500,
+        "qty": 3
+      },
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 1
+      },
+      {
+        "productId": "P15",
+        "name": "Sac à dos",
+        "category": "Accessoires",
+        "price": 6000,
+        "qty": 3
+      },
+      {
+        "productId": "P01",
+        "name": "Laptop",
+        "category": "Electronique",
+        "price": 120000,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-05-08T00:00:00.000Z"
+    },
+    "totalAmount": 394500,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-046",
+    "customer": {
+      "name": "Yasmine Mebarki",
+      "email": "yasmine.mebarki@mail.dz",
+      "city": "Batna",
+      "age": 26
+    },
+    "products": [
+      {
+        "productId": "P06",
+        "name": "Téléphone",
+        "category": "Electronique",
+        "price": 80000,
+        "qty": 2
+      },
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 3
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-02-14T00:00:00.000Z"
+    },
+    "totalAmount": 295000,
+    "paymentMethod": "cash"
+  },
+  {
+    "orderId": "ORD-047",
+    "customer": {
+      "name": "Redha Mazouz",
+      "email": "redha.mazouz@mail.dz",
+      "city": "Tlemcen",
+      "age": 44
+    },
+    "products": [
+      {
+        "productId": "P08",
+        "name": "Bureau en bois",
+        "category": "Mobilier",
+        "price": 55000,
+        "qty": 1
+      },
+      {
+        "productId": "P05",
+        "name": "Clavier",
+        "category": "Electronique",
+        "price": 8000,
+        "qty": 1
+      },
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 2
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-07-07T00:00:00.000Z"
+    },
+    "totalAmount": 99000,
+    "paymentMethod": "cash"
+  },
+  {
+    "orderId": "ORD-048",
+    "customer": {
+      "name": "Amel Tabet",
+      "email": "amel.tabet@mail.dz",
+      "city": "Tlemcen",
+      "age": 58
+    },
+    "products": [
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 1
+      }
+    ],
+    "status": "annulé",
+    "orderDate": {
+      "$date": "2024-02-12T00:00:00.000Z"
+    },
+    "totalAmount": 18000,
+    "paymentMethod": "chèque"
+  },
+  {
+    "orderId": "ORD-049",
+    "customer": {
+      "name": "Salim Benkhelifa",
+      "email": "salim.benkhelifa@mail.dz",
+      "city": "Tizi Ouzou",
+      "age": 47
+    },
+    "products": [
+      {
+        "productId": "P01",
+        "name": "Laptop",
+        "category": "Electronique",
+        "price": 120000,
+        "qty": 2
+      },
+      {
+        "productId": "P02",
+        "name": "Souris",
+        "category": "Electronique",
+        "price": 2500,
+        "qty": 1
+      },
+      {
+        "productId": "P12",
+        "name": "Étagère",
+        "category": "Mobilier",
+        "price": 18000,
+        "qty": 1
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-07-10T00:00:00.000Z"
+    },
+    "totalAmount": 260500,
+    "paymentMethod": "virement"
+  },
+  {
+    "orderId": "ORD-050",
+    "customer": {
+      "name": "Lilia Hadjout",
+      "email": "lilia.hadjout@mail.dz",
+      "city": "Sétif",
+      "age": 57
+    },
+    "products": [
+      {
+        "productId": "P11",
+        "name": "Webcam HD",
+        "category": "Electronique",
+        "price": 9000,
+        "qty": 2
+      },
+      {
+        "productId": "P07",
+        "name": "Écran Monitor",
+        "category": "Electronique",
+        "price": 45000,
+        "qty": 3
+      }
+    ],
+    "status": "livré",
+    "orderDate": {
+      "$date": "2024-02-29T00:00:00.000Z"
+    },
+    "totalAmount": 153000,
+    "paymentMethod": "cash"
+  }
+]
