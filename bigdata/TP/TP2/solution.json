@@ -10,9 +10,9 @@ db.Orders.aggregate([
 
 
 // 2
-db.Orders.find({
-  "customer.city": "Alger"
-});
+db.Orders.aggregate([
+  { $match: { "customer.city": "Alger" } }
+]);
 
 
 
@@ -53,10 +53,10 @@ db.Orders.aggregate([
 
 
 // 5
-db.Orders.find({ totalAmount: { $gt: 50000
-  }
-}).sort({ totalAmount: -1
-});
+db.Orders.aggregate([
+  { $match: { totalAmount: { $gt: 50000 } } },
+  { $sort: { totalAmount: -1 } }
+]);
 
 
 

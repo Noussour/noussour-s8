@@ -71,9 +71,7 @@ db.Orders.aggregate([
 ### Requête 2 : Afficher les commandes d'Alger
 
 ```javascript
-db.Orders.find({
-  "customer.city": "Alger",
-});
+db.Orders.aggregate([{ $match: { "customer.city": "Alger" } }]);
 ```
 
 **Résultat d'exécution (Extrait) :**
@@ -139,9 +137,10 @@ db.Orders.aggregate([
 ### Requête 5 : Affichez toutes les commandes dont le montant dépasse 50 000 DA, triées du montant le plus élevé au plus bas
 
 ```javascript
-db.Orders.find({
-  totalAmount: { $gt: 50000 },
-}).sort({ totalAmount: -1 });
+db.Orders.aggregate([
+  { $match: { totalAmount: { $gt: 50000 } } },
+  { $sort: { totalAmount: -1 } },
+]);
 ```
 
 **Résultat d'exécution (Extrait) :**
