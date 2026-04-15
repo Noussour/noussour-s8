@@ -1,0 +1,81 @@
+services:
+  # CONFIG SERVERS (cfgRS)
+  config1:
+    image: mongo:7
+    container_name: config1
+    command: >
+      mongod --configsvr --replSet cfgRS --port 27019 --bind_ip_all
+    ports:
+      - "27020:27019"
+    volumes:
+      - config1:/data/db
+    networks:
+      - mongo-cluster
+
+  config2:
+    image: mongo:7
+    container_name: config2
+    command: >
+      mongod --configsvr --replSet cfgRS --port 27019 --bind_ip_all
+    ports:
+      - "27021:27019"
+    volumes:
+      - config2:/data/db
+    networks:
+      - mongo-cluster
+
+  # SHARD 1 (shard1RS)
+  shard1:
+    image: mongo:7
+    container_name: shard1
+    restart: unless-stopped
+    command: >
+      mongod --shardsvr --replSet shard1RS --port 27018 --bind_ip_all
+    ports:
+      - "27018:27018"
+    volumes:
+      - shard1:/data/db
+    networks:
+      - mongo-cluster
+
+  # SHARD 2 (shard2RS)
+  shard2:
+    image: mongo:7
+    container_name: shard2
+    restart: unless-stopped
+    command: >
+      mongod --shardsvr --replSet shard2RS --port 27019 --bind_ip_all
+    ports:
+      - "27019:27019"
+    volumes:
+      - shard2:/data/db
+    networks:
+      - mongo-cluster
+
+  # MONGOS ROUTER
+  mongos:
+    image: mongo:7
+    container_name: mongos
+    restart: unless-stopped
+    depends_on:
+      - config1
+      - config2
+      - shard1
+      - shard2
+    command: >
+      mongos --configdb cfgRS/config1:27019,config2:27019 --bind_ip_all
+    ports:
+      - "27017:27017"
+    networks:
+      - mongo-cluster
+
+# NETWORK
+networks:
+  mongo-cluster:
+
+# VOLUMES
+volumes:
+  config1:
+  config2:
+  shard1:
+  shard2:
